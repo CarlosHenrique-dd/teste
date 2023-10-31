@@ -1,0 +1,33 @@
+.div-menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.categ-menu {
+    text-align: center;
+    width: 95%;
+
+}
+
+.categ-menu h1 {
+    margin: 10px;
+    color: #fff;
+}
+
+.categ-menu h3 {
+    color: #2873E4;
+}
+
+.list-card {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 450px) and (max-height: 900px) {
+    .list-card {
+        width: 95% !important;
+    }
+}
